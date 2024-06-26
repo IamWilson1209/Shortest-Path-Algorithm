@@ -6,7 +6,7 @@ def FloydWarshellAlgorithm(G):
     V = len(G)
     dist = [[float('inf')] * V for _ in range(V)] # 2D
 
-    # 創建 V 為主的圖形
+    # 創建 V 為主的圖形，嗨
     for i in range(V):
         for j in range(V):
             if i == j:
